@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+
+# Data Discovery Dashboard
+======================
+
+A Next.js application built with React, Tailwind CSS, and other modern web development tools.
+
+## Table of Contents
+-----------------
+
+* [Getting Started](#getting-started)
+* [Running the Application](#running-the-application)
+* [Features](#features)
+* [Dependencies](#dependencies)
 
 ## Getting Started
+---------------
 
-First, run the development server:
+This project uses the following tools and technologies:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Next.js for server-side rendering and static site generation
+* React for building user interfaces
+* Tailwind CSS for styling and layout
+* TypeScript for type checking and code completion
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requirements
+--------------
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run this project, you will need the following tools and technologies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Node.js v20.17.0 or higher (LTS version recommended)
 
-## Learn More
+## Running the Application
+-------------------------
 
-To learn more about Next.js, take a look at the following resources:
+To run the application, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository: `git clone https://github.com/codebymarcus/minimi-dashboard.git`
+2. Install dependencies: `npm install` or `yarn install`
+3. Start the development server: `npm run dev` or `yarn dev`
+4. Open your web browser and navigate to `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
+--------
 
-## Deploy on Vercel
+* Responsive design using Tailwind CSS
+* Server-side rendering and client-side rendering using Next.js
+* Reusable React components for UI elements and layout
+* TypeScript support for type checking and code completion
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Dependencies
+------------
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project uses the following dependencies:
+
+* `next`: Next.js framework
+* `react`: React library
+* `tailwindcss`: Tailwind CSS framework
+* `typescript`: TypeScript compiler
+* `@tanstack/react-query`: React Query library for data fetching and caching
+* `@tanstack/react-table`: React Table library for data tables
+* `@radix-ui`: Radix UI library for UI components

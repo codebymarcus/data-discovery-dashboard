@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01",
+    "name": "Company A",
+    "status": "inactive",
+    "total_users": 10
+  },
+  {
+    "id": "02",
+    "name": "Company B",
+    "status": "inactive",
+    "total_users": 5
+  },
+  {
+    "id": "03",
+    "name": "Company C",
+    "status": "inactive",
+    "total_users": 15
+  },
+  {
+    "id": "04",
+    "name": "Company D",
+    "status": "inactive",
+    "total_users": 20
+  },
+  {
+    "id": "05",
+    "name": "Company E",
+    "status": "inactive",
+    "total_users": 8
+  },
+  {
+    "id": "06",
+    "name": "Company F",
+    "status": "inactive",
+    "total_users": 10
+  },
+  {
+    "id": "07",
+    "name": "Company G",
+    "status": "inactive",
+    "total_users": 5
+  },
+  {
+    "id": "08",
+    "name": "Company H",
+    "status": "inactive",
+    "total_users": 15
+  },
+  {
+    "id": "09",
+    "name": "Company I",
+    "status": "inactive",
+    "total_users": 20
+  },
+  {
+    "id": "010",
+    "name": "Company J",
+    "status": "inactive",
+    "total_users": 8
+  },
+  {
+    "id": "011",
+    "name": "Company K",
+    "status": "active",
+    "total_users": 10
+  },
+  {
+    "id": "012",
+    "name": "Company L",
+    "status": "inactive",
+    "total_users": 5
+  },
+  {
+    "id": "013",
+    "name": "Company M",
+    "status": "active",
+    "total_users": 15
+  },
+  {
+    "id": "014",
+    "name": "Company N",
+    "status": "active",
+    "total_users": 20
+  },
+  {
+    "id": "015",
+    "name": "Company O",
+    "status": "inactive",
+    "total_users": 8
+  },
+  {
+    "id": "016",
+    "name": "Company P",
+    "status": "inactive",
+    "total_users": 10
+  },
+  {
+    "id": "017",
+    "name": "Company Q",
+    "status": "inactive",
+    "total_users": 5
+  },
+  {
+    "id": "018",
+    "name": "Company R",
+    "status": "inactive",
+    "total_users": 15
+  },
+  {
+    "id": "019",
+    "name": "Company S",
+    "status": "inactive",
+    "total_users": 20
+  },
+  {
+    "id": "020",
+    "name": "Company T",
+    "status": "inactive",
+    "total_users": 8
+  }
+]
