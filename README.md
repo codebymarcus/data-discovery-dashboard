@@ -12,6 +12,7 @@ A Next.js application built with React, Tailwind CSS, and other modern web devel
 * [Running the Application](#running-the-application)
 * [Features](#features)
 * [Dependencies](#dependencies)
+* [Note on Mock Data](#note-on-mock-data)
 
 ## Getting Started
 ---------------
@@ -61,3 +62,9 @@ This project uses the following dependencies:
 * `@tanstack/react-query`: React Query library for data fetching and caching
 * `@tanstack/react-table`: React Table library for data tables
 * `@radix-ui`: Radix UI library for UI components
+
+
+## Note on Mock Data
+--------------------
+
+If you find that the data is empty, you can copy the data from `mock-data/mock-copy.json` to `mock-data/companies.json` to populate the application with sample data. This will allow you to test the application's functionality without having to set up a real data source.
