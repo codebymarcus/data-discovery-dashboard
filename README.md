@@ -35,10 +35,11 @@ To run this project, you will need the following tools and technologies:
 
 To run the application, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/codebymarcus/minimi-dashboard.git`
+1. Clone the repository: `git clone https://github.com/codebymarcus/data-discovery-dashboard`
 2. Install dependencies: `npm install` or `yarn install`
 3. Start the development server: `npm run dev` or `yarn dev`
 4. Open your web browser and navigate to `http://localhost:3000`
+5. Test the application: `npm run test` or `yarn test`
 
 ## Features
 --------

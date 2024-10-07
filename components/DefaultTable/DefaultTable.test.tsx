@@ -31,7 +31,7 @@ const MOCK_COLUMNS: ColumnDef<CompanyType>[] = [
 
 const MOCK_DATA: CompanyType[] = [
   {
-    id: 1,
+    id: '1',
     name: "Company A",
     status: "active",
     total_users: 10
@@ -40,10 +40,16 @@ const MOCK_DATA: CompanyType[] = [
 
 describe('DefaultTable', () => {
   it('renders the table with correct headers', () => {
-    render(<DefaultTable data={MOCK_DATA} columns={MOCK_COLUMNS} />);
+    render(<DefaultTable data={MOCK_DATA} columns={MOCK_COLUMNS} isLoading={false} />);
 
     expect(screen.getByText('Company')).toBeInTheDocument();
     expect(screen.getByText('Status')).toBeInTheDocument();
     expect(screen.getByText('Number of Users')).toBeInTheDocument();
-  })
+  });
+
+  it(`renders table's loading state`, () => {
+    render(<DefaultTable data={MOCK_DATA} columns={MOCK_COLUMNS} isLoading={true} />);
+
+    expect(screen.getByText('loading')).toBeInTheDocument();
+  });
 })
